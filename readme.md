@@ -1,4 +1,4 @@
-<!-- 
+
 docker-compose up --build
 
 curl -X POST http://localhost:3000/task \
@@ -36,4 +36,3 @@ services:
     command: ["node", "consumer.js"]
     environment:
       - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672 
--->
